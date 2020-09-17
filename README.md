@@ -32,7 +32,7 @@ In Forma there are multiple ways to store data, they are called variable types. 
 Forma has multiple built in functions:
 
 * `print << "Hello world!" ` - displays the data which is inserted into the function using <<
-* `input >> x` - this will take input from your keyboard and store it in the variable x 
+* `cin >> x` - this will take input from your keyboard and store it in the variable x 
 * `if (x == 0) {` - if else, works like in C++
 * `import math.lib` - WIP,imports are really WIP, please trust me.
 * `block.object` - WIP, allows to store variables and control a prebuilt class, to use it just include it in your code as one of the top lines, and create the object using `BlockObject obj;`.
@@ -74,5 +74,14 @@ print << "\n" << "Forma is cool" << "\n";
 return 0;
 }
 ```
+
+### How to compile and run
+
+- To compile your code, type ``main.exe [your_file.endo]`` in CMD.
+  - replace ``[your_file.endo]`` with the file containing the code.
+  - There is a sample file named ``file.endo`` in the files.
+- To run the code you just compiled, simply type ``out.kav`` in CMD.
+  - Any file compiled using the compiler provided will output ``out.kav``.
+
 
 
