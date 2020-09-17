@@ -1,11 +1,31 @@
-block.object
 int main()
 {
-BlockObject obj;
-obj.setid(3);
-obj.getid();
-print << "\n";
-print << "Kunal is cool jk\n";
-return 0;
+
+int x;
+int y;
+int i;
+
+print << "Just a sample code\n";
+
+print << "So any number u got?  ";
+cin >> x;
+
+if (x == 1) {
+    print << "\nI got you brother\n";
+} else {
+    print << "\nStill got you broda :)\n";
+}
+
+i = 1;
+y = 1;
+
+while (y == 1) {
+    print << "\nPres 1 to start  ";
+    cin >> y;
+    if (y == 1) {
+        print << "\nNumber is: " << i;
+        i = i+1;
+    } 
+}
 }
 
