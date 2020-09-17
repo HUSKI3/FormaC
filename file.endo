@@ -1,0 +1,11 @@
+block.object
+int main()
+{
+BlockObject obj;
+obj.setid(3);
+obj.getid();
+print << "\n";
+print << "Kunal is cool jk\n";
+return 0;
+}
+
