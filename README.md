@@ -2,7 +2,7 @@
 
 A programming language made for simplicity and ease of use. Forma is a C++ derivative with a pythonic syntax, it still maintains a few parts of the C++ language.
 
-> This language is a WIP
+> Imports have been added, but should be used with care. Very WIP!
 
 # Mini Guide/Docs
 ### How to compile
@@ -34,7 +34,7 @@ Forma has multiple built in functions:
 * `print << "Hello world!" ` - displays the data which is inserted into the function using <<
 * `input >> x` - this will take input from your keyboard and store it in the variable x 
 * `if (x == 0) {` - if else, works like in C++
-* `import math.lib` - WIP, imports will be added soon
+* `import math.lib` - WIP,imports are really WIP, please trust me.
 * `block.object` - WIP, allows to store variables and control a prebuilt class, to use it just include it in your code as one of the top lines, and create the object using `BlockObject obj;`.
 * `// this is a comment` - although comments arent a function, they must be used with care, if they are not closed the proram will give an error and refuse to compile
 
