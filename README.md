@@ -65,7 +65,7 @@ Soon
 ### Example of a small program
 ```c++
 block.object
-int main()
+def main()
 {
 BlockObject obj;
 obj.setid(3);
